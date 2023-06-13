@@ -131,7 +131,7 @@ static UIInterfaceOrientationMask _orientationMask = UIInterfaceOrientationMaskA
     [currentDevice setValue:@(newOrientation) forKey:orientation];
     
     // restore device orientation
-    [currentDevice setValue:@(deviceOrientation) forKey:orientation];
+    // [currentDevice setValue:@(deviceOrientation) forKey:orientation];
     
     [UIViewController attemptRotationToDeviceOrientation];
     
